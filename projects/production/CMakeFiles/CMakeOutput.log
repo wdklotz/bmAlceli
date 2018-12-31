@@ -1,0 +1,884 @@
+The system is: Darwin - 15.6.0 - x86_64
+Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
+Compiler: /opt/local/bin/gcc 
+Build flags: 
+Id flags:  
+
+The output was:
+0
+
+
+Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "a.out"
+
+The C compiler identification is GNU, found in "/Users/klotz/Desktop/BMADwdk/projects/production/CMakeFiles/3.11.1/CompilerIdC/a.out"
+
+Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
+Compiler: /opt/local/bin/g++ 
+Build flags: 
+Id flags:  
+
+The output was:
+0
+
+
+Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "a.out"
+
+The CXX compiler identification is GNU, found in "/Users/klotz/Desktop/BMADwdk/projects/production/CMakeFiles/3.11.1/CompilerIdCXX/a.out"
+
+Determining if the C compiler works passed with the following output:
+Change Dir: /Users/klotz/Desktop/BMADwdk/projects/production/CMakeFiles/CMakeTmp
+
+Run Build Command:"/opt/local/bin/gmake" "cmTC_e1e7e/fast"
+/opt/local/bin/gmake -f CMakeFiles/cmTC_e1e7e.dir/build.make CMakeFiles/cmTC_e1e7e.dir/build
+gmake[1]: Entering directory '/Users/klotz/Desktop/BMADwdk/projects/production/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_e1e7e.dir/testCCompiler.c.o
+/opt/local/bin/gcc    -o CMakeFiles/cmTC_e1e7e.dir/testCCompiler.c.o   -c /Users/klotz/Desktop/BMADwdk/projects/production/CMakeFiles/CMakeTmp/testCCompiler.c
+Linking C executable cmTC_e1e7e
+/opt/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_e1e7e.dir/link.txt --verbose=1
+/opt/local/bin/gcc   -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_e1e7e.dir/testCCompiler.c.o  -o cmTC_e1e7e 
+gmake[1]: Leaving directory '/Users/klotz/Desktop/BMADwdk/projects/production/CMakeFiles/CMakeTmp'
+
+
+Detecting C compiler ABI info compiled with the following output:
+Change Dir: /Users/klotz/Desktop/BMADwdk/projects/production/CMakeFiles/CMakeTmp
+
+Run Build Command:"/opt/local/bin/gmake" "cmTC_cc1c5/fast"
+/opt/local/bin/gmake -f CMakeFiles/cmTC_cc1c5.dir/build.make CMakeFiles/cmTC_cc1c5.dir/build
+gmake[1]: Entering directory '/Users/klotz/Desktop/BMADwdk/projects/production/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_cc1c5.dir/CMakeCCompilerABI.c.o
+/opt/local/bin/gcc    -o CMakeFiles/cmTC_cc1c5.dir/CMakeCCompilerABI.c.o   -c /opt/local/share/cmake-3.11/Modules/CMakeCCompilerABI.c
+Linking C executable cmTC_cc1c5
+/opt/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_cc1c5.dir/link.txt --verbose=1
+/opt/local/bin/gcc   -Wl,-search_paths_first -Wl,-headerpad_max_install_names  -v -Wl,-v CMakeFiles/cmTC_cc1c5.dir/CMakeCCompilerABI.c.o  -o cmTC_cc1c5 
+Using built-in specs.
+COLLECT_GCC=/opt/local/bin/gcc
+COLLECT_LTO_WRAPPER=/opt/local/libexec/gcc/x86_64-apple-darwin15/5.5.0/lto-wrapper
+Target: x86_64-apple-darwin15
+Configured with: /opt/local/var/macports/build/_opt_bblocal_var_buildworker_ports_build_ports_lang_gcc5/gcc5/work/gcc-5.5.0/configure --prefix=/opt/local --build=x86_64-apple-darwin15 --enable-languages=c,c++,objc,obj-c++,lto,fortran,java --libdir=/opt/local/lib/gcc5 --includedir=/opt/local/include/gcc5 --infodir=/opt/local/share/info --mandir=/opt/local/share/man --datarootdir=/opt/local/share/gcc-5 --with-libiconv-prefix=/opt/local --with-local-prefix=/opt/local --with-system-zlib --disable-nls --program-suffix=-mp-5 --with-gxx-include-dir=/opt/local/include/gcc5/c++/ --with-gmp=/opt/local --with-mpfr=/opt/local --with-mpc=/opt/local --with-isl=/opt/local --enable-stage1-checking --disable-multilib --enable-lto --enable-libstdcxx-time --with-build-config=bootstrap-debug --with-as=/opt/local/bin/as --with-ld=/opt/local/bin/ld --with-ar=/opt/local/bin/ar --with-bugurl=https://trac.macports.org/newticket --disable-tls --with-pkgversion='MacPorts gcc5 5.5.0_1'
+Thread model: posix
+gcc version 5.5.0 (MacPorts gcc5 5.5.0_1) 
+COMPILER_PATH=/opt/local/libexec/gcc/x86_64-apple-darwin15/5.5.0/:/opt/local/libexec/gcc/x86_64-apple-darwin15/5.5.0/:/opt/local/libexec/gcc/x86_64-apple-darwin15/:/opt/local/lib/gcc5/gcc/x86_64-apple-darwin15/5.5.0/:/opt/local/lib/gcc5/gcc/x86_64-apple-darwin15/
+LIBRARY_PATH=/opt/local/lib/gcc5/gcc/x86_64-apple-darwin15/5.5.0/:/opt/local/lib/gcc5/gcc/x86_64-apple-darwin15/5.5.0/../../../:/usr/lib/
+COLLECT_GCC_OPTIONS='-mmacosx-version-min=10.11.6' '-v' '-o' 'cmTC_cc1c5' '-mtune=core2'
+ /opt/local/libexec/gcc/x86_64-apple-darwin15/5.5.0/collect2 -dynamic -arch x86_64 -macosx_version_min 10.11.6 -weak_reference_mismatches non-weak -o cmTC_cc1c5 -L/opt/local/lib/gcc5/gcc/x86_64-apple-darwin15/5.5.0 -L/opt/local/lib/gcc5/gcc/x86_64-apple-darwin15/5.5.0/../../.. -search_paths_first -headerpad_max_install_names -v CMakeFiles/cmTC_cc1c5.dir/CMakeCCompilerABI.c.o -no_compact_unwind -lSystem -lgcc_ext.10.5 -lgcc -lSystem -v
+collect2 version 5.5.0
+/opt/local/bin/ld -dynamic -arch x86_64 -macosx_version_min 10.11.6 -weak_reference_mismatches non-weak -o cmTC_cc1c5 -L/opt/local/lib/gcc5/gcc/x86_64-apple-darwin15/5.5.0 -L/opt/local/lib/gcc5/gcc/x86_64-apple-darwin15/5.5.0/../../.. -search_paths_first -headerpad_max_install_names -v CMakeFiles/cmTC_cc1c5.dir/CMakeCCompilerABI.c.o -no_compact_unwind -lSystem -lgcc_ext.10.5 -lgcc -lSystem -v
+@(#)PROGRAM:ld  PROJECT:ld64-274.2
+configured to support archs: i386 x86_64 x86_64h armv6 armv7 armv7s armv7m armv7k arm64 (tvOS)
+@(#)PROGRAM:ld  PROJECT:ld64-274.2
+configured to support archs: i386 x86_64 x86_64h armv6 armv7 armv7s armv7m armv7k arm64 (tvOS)
+Library search paths:
+	/opt/local/lib/gcc5/gcc/x86_64-apple-darwin15/5.5.0
+	/opt/local/lib/gcc5
+	/usr/lib
+	/usr/local/lib
+Framework search paths:
+	/Library/Frameworks/
+	/System/Library/Frameworks/
+ /opt/local/bin/nm -n CMakeFiles/cmTC_cc1c5.dir/CMakeCCompilerABI.c.o
+gmake[1]: Leaving directory '/Users/klotz/Desktop/BMADwdk/projects/production/CMakeFiles/CMakeTmp'
+
+
+Parsed C implicit link information from above output:
+  link line regex: [^( *|.*[/\])(ld|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\]+-)?ld|collect2)[^/\]*( |$)]
+  ignore line: [Change Dir: /Users/klotz/Desktop/BMADwdk/projects/production/CMakeFiles/CMakeTmp]
+  ignore line: []
+  ignore line: [Run Build Command:"/opt/local/bin/gmake" "cmTC_cc1c5/fast"]
+  ignore line: [/opt/local/bin/gmake -f CMakeFiles/cmTC_cc1c5.dir/build.make CMakeFiles/cmTC_cc1c5.dir/build]
+  ignore line: [gmake[1]: Entering directory '/Users/klotz/Desktop/BMADwdk/projects/production/CMakeFiles/CMakeTmp']
+  ignore line: [Building C object CMakeFiles/cmTC_cc1c5.dir/CMakeCCompilerABI.c.o]
+  ignore line: [/opt/local/bin/gcc    -o CMakeFiles/cmTC_cc1c5.dir/CMakeCCompilerABI.c.o   -c /opt/local/share/cmake-3.11/Modules/CMakeCCompilerABI.c]
+  ignore line: [Linking C executable cmTC_cc1c5]
+  ignore line: [/opt/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_cc1c5.dir/link.txt --verbose=1]
+  ignore line: [/opt/local/bin/gcc   -Wl,-search_paths_first -Wl,-headerpad_max_install_names  -v -Wl,-v CMakeFiles/cmTC_cc1c5.dir/CMakeCCompilerABI.c.o  -o cmTC_cc1c5 ]
+  ignore line: [Using built-in specs.]
+  ignore line: [COLLECT_GCC=/opt/local/bin/gcc]
+  ignore line: [COLLECT_LTO_WRAPPER=/opt/local/libexec/gcc/x86_64-apple-darwin15/5.5.0/lto-wrapper]
+  ignore line: [Target: x86_64-apple-darwin15]
+  ignore line: [Configured with: /opt/local/var/macports/build/_opt_bblocal_var_buildworker_ports_build_ports_lang_gcc5/gcc5/work/gcc-5.5.0/configure --prefix=/opt/local --build=x86_64-apple-darwin15 --enable-languages=c,c++,objc,obj-c++,lto,fortran,java --libdir=/opt/local/lib/gcc5 --includedir=/opt/local/include/gcc5 --infodir=/opt/local/share/info --mandir=/opt/local/share/man --datarootdir=/opt/local/share/gcc-5 --with-libiconv-prefix=/opt/local --with-local-prefix=/opt/local --with-system-zlib --disable-nls --program-suffix=-mp-5 --with-gxx-include-dir=/opt/local/include/gcc5/c++/ --with-gmp=/opt/local --with-mpfr=/opt/local --with-mpc=/opt/local --with-isl=/opt/local --enable-stage1-checking --disable-multilib --enable-lto --enable-libstdcxx-time --with-build-config=bootstrap-debug --with-as=/opt/local/bin/as --with-ld=/opt/local/bin/ld --with-ar=/opt/local/bin/ar --with-bugurl=https://trac.macports.org/newticket --disable-tls --with-pkgversion='MacPorts gcc5 5.5.0_1']
+  ignore line: [Thread model: posix]
+  ignore line: [gcc version 5.5.0 (MacPorts gcc5 5.5.0_1) ]
+  ignore line: [COMPILER_PATH=/opt/local/libexec/gcc/x86_64-apple-darwin15/5.5.0/:/opt/local/libexec/gcc/x86_64-apple-darwin15/5.5.0/:/opt/local/libexec/gcc/x86_64-apple-darwin15/:/opt/local/lib/gcc5/gcc/x86_64-apple-darwin15/5.5.0/:/opt/local/lib/gcc5/gcc/x86_64-apple-darwin15/]
+  ignore line: [LIBRARY_PATH=/opt/local/lib/gcc5/gcc/x86_64-apple-darwin15/5.5.0/:/opt/local/lib/gcc5/gcc/x86_64-apple-darwin15/5.5.0/../../../:/usr/lib/]
+  ignore line: [COLLECT_GCC_OPTIONS='-mmacosx-version-min=10.11.6' '-v' '-o' 'cmTC_cc1c5' '-mtune=core2']
+  link line: [ /opt/local/libexec/gcc/x86_64-apple-darwin15/5.5.0/collect2 -dynamic -arch x86_64 -macosx_version_min 10.11.6 -weak_reference_mismatches non-weak -o cmTC_cc1c5 -L/opt/local/lib/gcc5/gcc/x86_64-apple-darwin15/5.5.0 -L/opt/local/lib/gcc5/gcc/x86_64-apple-darwin15/5.5.0/../../.. -search_paths_first -headerpad_max_install_names -v CMakeFiles/cmTC_cc1c5.dir/CMakeCCompilerABI.c.o -no_compact_unwind -lSystem -lgcc_ext.10.5 -lgcc -lSystem -v]
+    arg [/opt/local/libexec/gcc/x86_64-apple-darwin15/5.5.0/collect2] ==> ignore
+    arg [-dynamic] ==> ignore
+    arg [-arch] ==> ignore
+    arg [x86_64] ==> ignore
+    arg [-macosx_version_min] ==> ignore
+    arg [10.11.6] ==> ignore
+    arg [-weak_reference_mismatches] ==> ignore
+    arg [non-weak] ==> ignore
+    arg [-o] ==> ignore
+    arg [cmTC_cc1c5] ==> ignore
+    arg [-L/opt/local/lib/gcc5/gcc/x86_64-apple-darwin15/5.5.0] ==> dir [/opt/local/lib/gcc5/gcc/x86_64-apple-darwin15/5.5.0]
+    arg [-L/opt/local/lib/gcc5/gcc/x86_64-apple-darwin15/5.5.0/../../..] ==> dir [/opt/local/lib/gcc5/gcc/x86_64-apple-darwin15/5.5.0/../../..]
+    arg [-search_paths_first] ==> ignore
+    arg [-headerpad_max_install_names] ==> ignore
+    arg [-v] ==> ignore
+    arg [CMakeFiles/cmTC_cc1c5.dir/CMakeCCompilerABI.c.o] ==> ignore
+    arg [-no_compact_unwind] ==> ignore
+    arg [-lSystem] ==> lib [System]
+    arg [-lgcc_ext.10.5] ==> lib [gcc_ext.10.5]
+    arg [-lgcc] ==> lib [gcc]
+    arg [-lSystem] ==> lib [System]
+    arg [-v] ==> ignore
+  Library search paths: [;/opt/local/lib/gcc5/gcc/x86_64-apple-darwin15/5.5.0;/opt/local/lib/gcc5;/usr/lib;/usr/local/lib]
+  Framework search paths: [;/Library/Frameworks/;/System/Library/Frameworks/]
+  remove lib [System]
+  remove lib [System]
+  collapse library dir [/opt/local/lib/gcc5/gcc/x86_64-apple-darwin15/5.5.0] ==> [/opt/local/lib/gcc5/gcc/x86_64-apple-darwin15/5.5.0]
+  collapse library dir [/opt/local/lib/gcc5/gcc/x86_64-apple-darwin15/5.5.0/../../..] ==> [/opt/local/lib/gcc5]
+  collapse library dir [/opt/local/lib/gcc5/gcc/x86_64-apple-darwin15/5.5.0] ==> [/opt/local/lib/gcc5/gcc/x86_64-apple-darwin15/5.5.0]
+  collapse library dir [/opt/local/lib/gcc5] ==> [/opt/local/lib/gcc5]
+  collapse library dir [/usr/lib] ==> [/usr/lib]
+  collapse library dir [/usr/local/lib] ==> [/usr/local/lib]
+  collapse framework dir [/Library/Frameworks/] ==> [/Library/Frameworks]
+  collapse framework dir [/System/Library/Frameworks/] ==> [/System/Library/Frameworks]
+  implicit libs: [gcc_ext.10.5;gcc]
+  implicit dirs: [/opt/local/lib/gcc5/gcc/x86_64-apple-darwin15/5.5.0;/opt/local/lib/gcc5;/usr/lib;/usr/local/lib]
+  implicit fwks: [/Library/Frameworks;/System/Library/Frameworks]
+
+
+
+
+Detecting C [-std=c11] compiler features compiled with the following output:
+Change Dir: /Users/klotz/Desktop/BMADwdk/projects/production/CMakeFiles/CMakeTmp
+
+Run Build Command:"/opt/local/bin/gmake" "cmTC_d1588/fast"
+/opt/local/bin/gmake -f CMakeFiles/cmTC_d1588.dir/build.make CMakeFiles/cmTC_d1588.dir/build
+gmake[1]: Entering directory '/Users/klotz/Desktop/BMADwdk/projects/production/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_d1588.dir/feature_tests.c.o
+/opt/local/bin/gcc   -std=c11 -o CMakeFiles/cmTC_d1588.dir/feature_tests.c.o   -c /Users/klotz/Desktop/BMADwdk/projects/production/CMakeFiles/feature_tests.c
+Linking C executable cmTC_d1588
+/opt/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_d1588.dir/link.txt --verbose=1
+/opt/local/bin/gcc   -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_d1588.dir/feature_tests.c.o  -o cmTC_d1588 
+gmake[1]: Leaving directory '/Users/klotz/Desktop/BMADwdk/projects/production/CMakeFiles/CMakeTmp'
+
+
+    Feature record: C_FEATURE:1c_function_prototypes
+    Feature record: C_FEATURE:1c_restrict
+    Feature record: C_FEATURE:1c_static_assert
+    Feature record: C_FEATURE:1c_variadic_macros
+
+
+Detecting C [-std=c99] compiler features compiled with the following output:
+Change Dir: /Users/klotz/Desktop/BMADwdk/projects/production/CMakeFiles/CMakeTmp
+
+Run Build Command:"/opt/local/bin/gmake" "cmTC_be931/fast"
+/opt/local/bin/gmake -f CMakeFiles/cmTC_be931.dir/build.make CMakeFiles/cmTC_be931.dir/build
+gmake[1]: Entering directory '/Users/klotz/Desktop/BMADwdk/projects/production/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_be931.dir/feature_tests.c.o
+/opt/local/bin/gcc   -std=c99 -o CMakeFiles/cmTC_be931.dir/feature_tests.c.o   -c /Users/klotz/Desktop/BMADwdk/projects/production/CMakeFiles/feature_tests.c
+Linking C executable cmTC_be931
+/opt/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_be931.dir/link.txt --verbose=1
+/opt/local/bin/gcc   -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_be931.dir/feature_tests.c.o  -o cmTC_be931 
+gmake[1]: Leaving directory '/Users/klotz/Desktop/BMADwdk/projects/production/CMakeFiles/CMakeTmp'
+
+
+    Feature record: C_FEATURE:1c_function_prototypes
+    Feature record: C_FEATURE:1c_restrict
+    Feature record: C_FEATURE:0c_static_assert
+    Feature record: C_FEATURE:1c_variadic_macros
+
+
+Detecting C [-std=c90] compiler features compiled with the following output:
+Change Dir: /Users/klotz/Desktop/BMADwdk/projects/production/CMakeFiles/CMakeTmp
+
+Run Build Command:"/opt/local/bin/gmake" "cmTC_dca3f/fast"
+/opt/local/bin/gmake -f CMakeFiles/cmTC_dca3f.dir/build.make CMakeFiles/cmTC_dca3f.dir/build
+gmake[1]: Entering directory '/Users/klotz/Desktop/BMADwdk/projects/production/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_dca3f.dir/feature_tests.c.o
+/opt/local/bin/gcc   -std=c90 -o CMakeFiles/cmTC_dca3f.dir/feature_tests.c.o   -c /Users/klotz/Desktop/BMADwdk/projects/production/CMakeFiles/feature_tests.c
+Linking C executable cmTC_dca3f
+/opt/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_dca3f.dir/link.txt --verbose=1
+/opt/local/bin/gcc   -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_dca3f.dir/feature_tests.c.o  -o cmTC_dca3f 
+gmake[1]: Leaving directory '/Users/klotz/Desktop/BMADwdk/projects/production/CMakeFiles/CMakeTmp'
+
+
+    Feature record: C_FEATURE:1c_function_prototypes
+    Feature record: C_FEATURE:0c_restrict
+    Feature record: C_FEATURE:0c_static_assert
+    Feature record: C_FEATURE:0c_variadic_macros
+Determining if the CXX compiler works passed with the following output:
+Change Dir: /Users/klotz/Desktop/BMADwdk/projects/production/CMakeFiles/CMakeTmp
+
+Run Build Command:"/opt/local/bin/gmake" "cmTC_41c22/fast"
+/opt/local/bin/gmake -f CMakeFiles/cmTC_41c22.dir/build.make CMakeFiles/cmTC_41c22.dir/build
+gmake[1]: Entering directory '/Users/klotz/Desktop/BMADwdk/projects/production/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_41c22.dir/testCXXCompiler.cxx.o
+/opt/local/bin/g++     -o CMakeFiles/cmTC_41c22.dir/testCXXCompiler.cxx.o -c /Users/klotz/Desktop/BMADwdk/projects/production/CMakeFiles/CMakeTmp/testCXXCompiler.cxx
+Linking CXX executable cmTC_41c22
+/opt/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_41c22.dir/link.txt --verbose=1
+/opt/local/bin/g++    -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_41c22.dir/testCXXCompiler.cxx.o  -o cmTC_41c22 
+gmake[1]: Leaving directory '/Users/klotz/Desktop/BMADwdk/projects/production/CMakeFiles/CMakeTmp'
+
+
+Detecting CXX compiler ABI info compiled with the following output:
+Change Dir: /Users/klotz/Desktop/BMADwdk/projects/production/CMakeFiles/CMakeTmp
+
+Run Build Command:"/opt/local/bin/gmake" "cmTC_3a0f0/fast"
+/opt/local/bin/gmake -f CMakeFiles/cmTC_3a0f0.dir/build.make CMakeFiles/cmTC_3a0f0.dir/build
+gmake[1]: Entering directory '/Users/klotz/Desktop/BMADwdk/projects/production/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_3a0f0.dir/CMakeCXXCompilerABI.cpp.o
+/opt/local/bin/g++     -o CMakeFiles/cmTC_3a0f0.dir/CMakeCXXCompilerABI.cpp.o -c /opt/local/share/cmake-3.11/Modules/CMakeCXXCompilerABI.cpp
+Linking CXX executable cmTC_3a0f0
+/opt/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_3a0f0.dir/link.txt --verbose=1
+/opt/local/bin/g++    -Wl,-search_paths_first -Wl,-headerpad_max_install_names  -v -Wl,-v CMakeFiles/cmTC_3a0f0.dir/CMakeCXXCompilerABI.cpp.o  -o cmTC_3a0f0 
+Using built-in specs.
+COLLECT_GCC=/opt/local/bin/g++
+COLLECT_LTO_WRAPPER=/opt/local/libexec/gcc/x86_64-apple-darwin15/5.5.0/lto-wrapper
+Target: x86_64-apple-darwin15
+Configured with: /opt/local/var/macports/build/_opt_bblocal_var_buildworker_ports_build_ports_lang_gcc5/gcc5/work/gcc-5.5.0/configure --prefix=/opt/local --build=x86_64-apple-darwin15 --enable-languages=c,c++,objc,obj-c++,lto,fortran,java --libdir=/opt/local/lib/gcc5 --includedir=/opt/local/include/gcc5 --infodir=/opt/local/share/info --mandir=/opt/local/share/man --datarootdir=/opt/local/share/gcc-5 --with-libiconv-prefix=/opt/local --with-local-prefix=/opt/local --with-system-zlib --disable-nls --program-suffix=-mp-5 --with-gxx-include-dir=/opt/local/include/gcc5/c++/ --with-gmp=/opt/local --with-mpfr=/opt/local --with-mpc=/opt/local --with-isl=/opt/local --enable-stage1-checking --disable-multilib --enable-lto --enable-libstdcxx-time --with-build-config=bootstrap-debug --with-as=/opt/local/bin/as --with-ld=/opt/local/bin/ld --with-ar=/opt/local/bin/ar --with-bugurl=https://trac.macports.org/newticket --disable-tls --with-pkgversion='MacPorts gcc5 5.5.0_1'
+Thread model: posix
+gcc version 5.5.0 (MacPorts gcc5 5.5.0_1) 
+COMPILER_PATH=/opt/local/libexec/gcc/x86_64-apple-darwin15/5.5.0/:/opt/local/libexec/gcc/x86_64-apple-darwin15/5.5.0/:/opt/local/libexec/gcc/x86_64-apple-darwin15/:/opt/local/lib/gcc5/gcc/x86_64-apple-darwin15/5.5.0/:/opt/local/lib/gcc5/gcc/x86_64-apple-darwin15/
+LIBRARY_PATH=/opt/local/lib/gcc5/gcc/x86_64-apple-darwin15/5.5.0/:/opt/local/lib/gcc5/gcc/x86_64-apple-darwin15/5.5.0/../../../:/usr/lib/
+COLLECT_GCC_OPTIONS='-mmacosx-version-min=10.11.6' '-v' '-o' 'cmTC_3a0f0' '-shared-libgcc' '-mtune=core2'
+ /opt/local/libexec/gcc/x86_64-apple-darwin15/5.5.0/collect2 -dynamic -arch x86_64 -macosx_version_min 10.11.6 -weak_reference_mismatches non-weak -o cmTC_3a0f0 -L/opt/local/lib/gcc5/gcc/x86_64-apple-darwin15/5.5.0 -L/opt/local/lib/gcc5/gcc/x86_64-apple-darwin15/5.5.0/../../.. -search_paths_first -headerpad_max_install_names -v CMakeFiles/cmTC_3a0f0.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -no_compact_unwind -lSystem -lgcc_ext.10.5 -lgcc -lSystem -v
+collect2 version 5.5.0
+/opt/local/bin/ld -dynamic -arch x86_64 -macosx_version_min 10.11.6 -weak_reference_mismatches non-weak -o cmTC_3a0f0 -L/opt/local/lib/gcc5/gcc/x86_64-apple-darwin15/5.5.0 -L/opt/local/lib/gcc5/gcc/x86_64-apple-darwin15/5.5.0/../../.. -search_paths_first -headerpad_max_install_names -v CMakeFiles/cmTC_3a0f0.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -no_compact_unwind -lSystem -lgcc_ext.10.5 -lgcc -lSystem -v
+@(#)PROGRAM:ld  PROJECT:ld64-274.2
+configured to support archs: i386 x86_64 x86_64h armv6 armv7 armv7s armv7m armv7k arm64 (tvOS)
+@(#)PROGRAM:ld  PROJECT:ld64-274.2
+configured to support archs: i386 x86_64 x86_64h armv6 armv7 armv7s armv7m armv7k arm64 (tvOS)
+Library search paths:
+	/opt/local/lib/gcc5/gcc/x86_64-apple-darwin15/5.5.0
+	/opt/local/lib/gcc5
+	/usr/lib
+	/usr/local/lib
+Framework search paths:
+	/Library/Frameworks/
+	/System/Library/Frameworks/
+ /opt/local/bin/nm -n CMakeFiles/cmTC_3a0f0.dir/CMakeCXXCompilerABI.cpp.o
+gmake[1]: Leaving directory '/Users/klotz/Desktop/BMADwdk/projects/production/CMakeFiles/CMakeTmp'
+
+
+Parsed CXX implicit link information from above output:
+  link line regex: [^( *|.*[/\])(ld|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\]+-)?ld|collect2)[^/\]*( |$)]
+  ignore line: [Change Dir: /Users/klotz/Desktop/BMADwdk/projects/production/CMakeFiles/CMakeTmp]
+  ignore line: []
+  ignore line: [Run Build Command:"/opt/local/bin/gmake" "cmTC_3a0f0/fast"]
+  ignore line: [/opt/local/bin/gmake -f CMakeFiles/cmTC_3a0f0.dir/build.make CMakeFiles/cmTC_3a0f0.dir/build]
+  ignore line: [gmake[1]: Entering directory '/Users/klotz/Desktop/BMADwdk/projects/production/CMakeFiles/CMakeTmp']
+  ignore line: [Building CXX object CMakeFiles/cmTC_3a0f0.dir/CMakeCXXCompilerABI.cpp.o]
+  ignore line: [/opt/local/bin/g++     -o CMakeFiles/cmTC_3a0f0.dir/CMakeCXXCompilerABI.cpp.o -c /opt/local/share/cmake-3.11/Modules/CMakeCXXCompilerABI.cpp]
+  ignore line: [Linking CXX executable cmTC_3a0f0]
+  ignore line: [/opt/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_3a0f0.dir/link.txt --verbose=1]
+  ignore line: [/opt/local/bin/g++    -Wl,-search_paths_first -Wl,-headerpad_max_install_names  -v -Wl,-v CMakeFiles/cmTC_3a0f0.dir/CMakeCXXCompilerABI.cpp.o  -o cmTC_3a0f0 ]
+  ignore line: [Using built-in specs.]
+  ignore line: [COLLECT_GCC=/opt/local/bin/g++]
+  ignore line: [COLLECT_LTO_WRAPPER=/opt/local/libexec/gcc/x86_64-apple-darwin15/5.5.0/lto-wrapper]
+  ignore line: [Target: x86_64-apple-darwin15]
+  ignore line: [Configured with: /opt/local/var/macports/build/_opt_bblocal_var_buildworker_ports_build_ports_lang_gcc5/gcc5/work/gcc-5.5.0/configure --prefix=/opt/local --build=x86_64-apple-darwin15 --enable-languages=c,c++,objc,obj-c++,lto,fortran,java --libdir=/opt/local/lib/gcc5 --includedir=/opt/local/include/gcc5 --infodir=/opt/local/share/info --mandir=/opt/local/share/man --datarootdir=/opt/local/share/gcc-5 --with-libiconv-prefix=/opt/local --with-local-prefix=/opt/local --with-system-zlib --disable-nls --program-suffix=-mp-5 --with-gxx-include-dir=/opt/local/include/gcc5/c++/ --with-gmp=/opt/local --with-mpfr=/opt/local --with-mpc=/opt/local --with-isl=/opt/local --enable-stage1-checking --disable-multilib --enable-lto --enable-libstdcxx-time --with-build-config=bootstrap-debug --with-as=/opt/local/bin/as --with-ld=/opt/local/bin/ld --with-ar=/opt/local/bin/ar --with-bugurl=https://trac.macports.org/newticket --disable-tls --with-pkgversion='MacPorts gcc5 5.5.0_1']
+  ignore line: [Thread model: posix]
+  ignore line: [gcc version 5.5.0 (MacPorts gcc5 5.5.0_1) ]
+  ignore line: [COMPILER_PATH=/opt/local/libexec/gcc/x86_64-apple-darwin15/5.5.0/:/opt/local/libexec/gcc/x86_64-apple-darwin15/5.5.0/:/opt/local/libexec/gcc/x86_64-apple-darwin15/:/opt/local/lib/gcc5/gcc/x86_64-apple-darwin15/5.5.0/:/opt/local/lib/gcc5/gcc/x86_64-apple-darwin15/]
+  ignore line: [LIBRARY_PATH=/opt/local/lib/gcc5/gcc/x86_64-apple-darwin15/5.5.0/:/opt/local/lib/gcc5/gcc/x86_64-apple-darwin15/5.5.0/../../../:/usr/lib/]
+  ignore line: [COLLECT_GCC_OPTIONS='-mmacosx-version-min=10.11.6' '-v' '-o' 'cmTC_3a0f0' '-shared-libgcc' '-mtune=core2']
+  link line: [ /opt/local/libexec/gcc/x86_64-apple-darwin15/5.5.0/collect2 -dynamic -arch x86_64 -macosx_version_min 10.11.6 -weak_reference_mismatches non-weak -o cmTC_3a0f0 -L/opt/local/lib/gcc5/gcc/x86_64-apple-darwin15/5.5.0 -L/opt/local/lib/gcc5/gcc/x86_64-apple-darwin15/5.5.0/../../.. -search_paths_first -headerpad_max_install_names -v CMakeFiles/cmTC_3a0f0.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -no_compact_unwind -lSystem -lgcc_ext.10.5 -lgcc -lSystem -v]
+    arg [/opt/local/libexec/gcc/x86_64-apple-darwin15/5.5.0/collect2] ==> ignore
+    arg [-dynamic] ==> ignore
+    arg [-arch] ==> ignore
+    arg [x86_64] ==> ignore
+    arg [-macosx_version_min] ==> ignore
+    arg [10.11.6] ==> ignore
+    arg [-weak_reference_mismatches] ==> ignore
+    arg [non-weak] ==> ignore
+    arg [-o] ==> ignore
+    arg [cmTC_3a0f0] ==> ignore
+    arg [-L/opt/local/lib/gcc5/gcc/x86_64-apple-darwin15/5.5.0] ==> dir [/opt/local/lib/gcc5/gcc/x86_64-apple-darwin15/5.5.0]
+    arg [-L/opt/local/lib/gcc5/gcc/x86_64-apple-darwin15/5.5.0/../../..] ==> dir [/opt/local/lib/gcc5/gcc/x86_64-apple-darwin15/5.5.0/../../..]
+    arg [-search_paths_first] ==> ignore
+    arg [-headerpad_max_install_names] ==> ignore
+    arg [-v] ==> ignore
+    arg [CMakeFiles/cmTC_3a0f0.dir/CMakeCXXCompilerABI.cpp.o] ==> ignore
+    arg [-lstdc++] ==> lib [stdc++]
+    arg [-no_compact_unwind] ==> ignore
+    arg [-lSystem] ==> lib [System]
+    arg [-lgcc_ext.10.5] ==> lib [gcc_ext.10.5]
+    arg [-lgcc] ==> lib [gcc]
+    arg [-lSystem] ==> lib [System]
+    arg [-v] ==> ignore
+  Library search paths: [;/opt/local/lib/gcc5/gcc/x86_64-apple-darwin15/5.5.0;/opt/local/lib/gcc5;/usr/lib;/usr/local/lib]
+  Framework search paths: [;/Library/Frameworks/;/System/Library/Frameworks/]
+  remove lib [System]
+  remove lib [System]
+  collapse library dir [/opt/local/lib/gcc5/gcc/x86_64-apple-darwin15/5.5.0] ==> [/opt/local/lib/gcc5/gcc/x86_64-apple-darwin15/5.5.0]
+  collapse library dir [/opt/local/lib/gcc5/gcc/x86_64-apple-darwin15/5.5.0/../../..] ==> [/opt/local/lib/gcc5]
+  collapse library dir [/opt/local/lib/gcc5/gcc/x86_64-apple-darwin15/5.5.0] ==> [/opt/local/lib/gcc5/gcc/x86_64-apple-darwin15/5.5.0]
+  collapse library dir [/opt/local/lib/gcc5] ==> [/opt/local/lib/gcc5]
+  collapse library dir [/usr/lib] ==> [/usr/lib]
+  collapse library dir [/usr/local/lib] ==> [/usr/local/lib]
+  collapse framework dir [/Library/Frameworks/] ==> [/Library/Frameworks]
+  collapse framework dir [/System/Library/Frameworks/] ==> [/System/Library/Frameworks]
+  implicit libs: [stdc++;gcc_ext.10.5;gcc]
+  implicit dirs: [/opt/local/lib/gcc5/gcc/x86_64-apple-darwin15/5.5.0;/opt/local/lib/gcc5;/usr/lib;/usr/local/lib]
+  implicit fwks: [/Library/Frameworks;/System/Library/Frameworks]
+
+
+
+
+Detecting CXX [-std=c++1z] compiler features compiled with the following output:
+Change Dir: /Users/klotz/Desktop/BMADwdk/projects/production/CMakeFiles/CMakeTmp
+
+Run Build Command:"/opt/local/bin/gmake" "cmTC_e591a/fast"
+/opt/local/bin/gmake -f CMakeFiles/cmTC_e591a.dir/build.make CMakeFiles/cmTC_e591a.dir/build
+gmake[1]: Entering directory '/Users/klotz/Desktop/BMADwdk/projects/production/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_e591a.dir/feature_tests.cxx.o
+/opt/local/bin/g++    -std=c++1z -o CMakeFiles/cmTC_e591a.dir/feature_tests.cxx.o -c /Users/klotz/Desktop/BMADwdk/projects/production/CMakeFiles/feature_tests.cxx
+Linking CXX executable cmTC_e591a
+/opt/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_e591a.dir/link.txt --verbose=1
+/opt/local/bin/g++    -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_e591a.dir/feature_tests.cxx.o  -o cmTC_e591a 
+gmake[1]: Leaving directory '/Users/klotz/Desktop/BMADwdk/projects/production/CMakeFiles/CMakeTmp'
+
+
+    Feature record: CXX_FEATURE:1cxx_aggregate_default_initializers
+    Feature record: CXX_FEATURE:1cxx_alias_templates
+    Feature record: CXX_FEATURE:1cxx_alignas
+    Feature record: CXX_FEATURE:1cxx_alignof
+    Feature record: CXX_FEATURE:1cxx_attributes
+    Feature record: CXX_FEATURE:1cxx_attribute_deprecated
+    Feature record: CXX_FEATURE:1cxx_auto_type
+    Feature record: CXX_FEATURE:1cxx_binary_literals
+    Feature record: CXX_FEATURE:1cxx_constexpr
+    Feature record: CXX_FEATURE:1cxx_contextual_conversions
+    Feature record: CXX_FEATURE:1cxx_decltype
+    Feature record: CXX_FEATURE:1cxx_decltype_auto
+    Feature record: CXX_FEATURE:1cxx_decltype_incomplete_return_types
+    Feature record: CXX_FEATURE:1cxx_default_function_template_args
+    Feature record: CXX_FEATURE:1cxx_defaulted_functions
+    Feature record: CXX_FEATURE:1cxx_defaulted_move_initializers
+    Feature record: CXX_FEATURE:1cxx_delegating_constructors
+    Feature record: CXX_FEATURE:1cxx_deleted_functions
+    Feature record: CXX_FEATURE:1cxx_digit_separators
+    Feature record: CXX_FEATURE:1cxx_enum_forward_declarations
+    Feature record: CXX_FEATURE:1cxx_explicit_conversions
+    Feature record: CXX_FEATURE:1cxx_extended_friend_declarations
+    Feature record: CXX_FEATURE:1cxx_extern_templates
+    Feature record: CXX_FEATURE:1cxx_final
+    Feature record: CXX_FEATURE:1cxx_func_identifier
+    Feature record: CXX_FEATURE:1cxx_generalized_initializers
+    Feature record: CXX_FEATURE:1cxx_generic_lambdas
+    Feature record: CXX_FEATURE:1cxx_inheriting_constructors
+    Feature record: CXX_FEATURE:1cxx_inline_namespaces
+    Feature record: CXX_FEATURE:1cxx_lambdas
+    Feature record: CXX_FEATURE:1cxx_lambda_init_captures
+    Feature record: CXX_FEATURE:1cxx_local_type_template_args
+    Feature record: CXX_FEATURE:1cxx_long_long_type
+    Feature record: CXX_FEATURE:1cxx_noexcept
+    Feature record: CXX_FEATURE:1cxx_nonstatic_member_init
+    Feature record: CXX_FEATURE:1cxx_nullptr
+    Feature record: CXX_FEATURE:1cxx_override
+    Feature record: CXX_FEATURE:1cxx_range_for
+    Feature record: CXX_FEATURE:1cxx_raw_string_literals
+    Feature record: CXX_FEATURE:1cxx_reference_qualified_functions
+    Feature record: CXX_FEATURE:1cxx_relaxed_constexpr
+    Feature record: CXX_FEATURE:1cxx_return_type_deduction
+    Feature record: CXX_FEATURE:1cxx_right_angle_brackets
+    Feature record: CXX_FEATURE:1cxx_rvalue_references
+    Feature record: CXX_FEATURE:1cxx_sizeof_member
+    Feature record: CXX_FEATURE:1cxx_static_assert
+    Feature record: CXX_FEATURE:1cxx_strong_enums
+    Feature record: CXX_FEATURE:1cxx_template_template_parameters
+    Feature record: CXX_FEATURE:1cxx_thread_local
+    Feature record: CXX_FEATURE:1cxx_trailing_return_types
+    Feature record: CXX_FEATURE:1cxx_unicode_literals
+    Feature record: CXX_FEATURE:1cxx_uniform_initialization
+    Feature record: CXX_FEATURE:1cxx_unrestricted_unions
+    Feature record: CXX_FEATURE:1cxx_user_literals
+    Feature record: CXX_FEATURE:1cxx_variable_templates
+    Feature record: CXX_FEATURE:1cxx_variadic_macros
+    Feature record: CXX_FEATURE:1cxx_variadic_templates
+
+
+Detecting CXX [-std=c++14] compiler features compiled with the following output:
+Change Dir: /Users/klotz/Desktop/BMADwdk/projects/production/CMakeFiles/CMakeTmp
+
+Run Build Command:"/opt/local/bin/gmake" "cmTC_d7348/fast"
+/opt/local/bin/gmake -f CMakeFiles/cmTC_d7348.dir/build.make CMakeFiles/cmTC_d7348.dir/build
+gmake[1]: Entering directory '/Users/klotz/Desktop/BMADwdk/projects/production/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_d7348.dir/feature_tests.cxx.o
+/opt/local/bin/g++    -std=c++14 -o CMakeFiles/cmTC_d7348.dir/feature_tests.cxx.o -c /Users/klotz/Desktop/BMADwdk/projects/production/CMakeFiles/feature_tests.cxx
+Linking CXX executable cmTC_d7348
+/opt/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_d7348.dir/link.txt --verbose=1
+/opt/local/bin/g++    -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_d7348.dir/feature_tests.cxx.o  -o cmTC_d7348 
+gmake[1]: Leaving directory '/Users/klotz/Desktop/BMADwdk/projects/production/CMakeFiles/CMakeTmp'
+
+
+    Feature record: CXX_FEATURE:1cxx_aggregate_default_initializers
+    Feature record: CXX_FEATURE:1cxx_alias_templates
+    Feature record: CXX_FEATURE:1cxx_alignas
+    Feature record: CXX_FEATURE:1cxx_alignof
+    Feature record: CXX_FEATURE:1cxx_attributes
+    Feature record: CXX_FEATURE:1cxx_attribute_deprecated
+    Feature record: CXX_FEATURE:1cxx_auto_type
+    Feature record: CXX_FEATURE:1cxx_binary_literals
+    Feature record: CXX_FEATURE:1cxx_constexpr
+    Feature record: CXX_FEATURE:1cxx_contextual_conversions
+    Feature record: CXX_FEATURE:1cxx_decltype
+    Feature record: CXX_FEATURE:1cxx_decltype_auto
+    Feature record: CXX_FEATURE:1cxx_decltype_incomplete_return_types
+    Feature record: CXX_FEATURE:1cxx_default_function_template_args
+    Feature record: CXX_FEATURE:1cxx_defaulted_functions
+    Feature record: CXX_FEATURE:1cxx_defaulted_move_initializers
+    Feature record: CXX_FEATURE:1cxx_delegating_constructors
+    Feature record: CXX_FEATURE:1cxx_deleted_functions
+    Feature record: CXX_FEATURE:1cxx_digit_separators
+    Feature record: CXX_FEATURE:1cxx_enum_forward_declarations
+    Feature record: CXX_FEATURE:1cxx_explicit_conversions
+    Feature record: CXX_FEATURE:1cxx_extended_friend_declarations
+    Feature record: CXX_FEATURE:1cxx_extern_templates
+    Feature record: CXX_FEATURE:1cxx_final
+    Feature record: CXX_FEATURE:1cxx_func_identifier
+    Feature record: CXX_FEATURE:1cxx_generalized_initializers
+    Feature record: CXX_FEATURE:1cxx_generic_lambdas
+    Feature record: CXX_FEATURE:1cxx_inheriting_constructors
+    Feature record: CXX_FEATURE:1cxx_inline_namespaces
+    Feature record: CXX_FEATURE:1cxx_lambdas
+    Feature record: CXX_FEATURE:1cxx_lambda_init_captures
+    Feature record: CXX_FEATURE:1cxx_local_type_template_args
+    Feature record: CXX_FEATURE:1cxx_long_long_type
+    Feature record: CXX_FEATURE:1cxx_noexcept
+    Feature record: CXX_FEATURE:1cxx_nonstatic_member_init
+    Feature record: CXX_FEATURE:1cxx_nullptr
+    Feature record: CXX_FEATURE:1cxx_override
+    Feature record: CXX_FEATURE:1cxx_range_for
+    Feature record: CXX_FEATURE:1cxx_raw_string_literals
+    Feature record: CXX_FEATURE:1cxx_reference_qualified_functions
+    Feature record: CXX_FEATURE:1cxx_relaxed_constexpr
+    Feature record: CXX_FEATURE:1cxx_return_type_deduction
+    Feature record: CXX_FEATURE:1cxx_right_angle_brackets
+    Feature record: CXX_FEATURE:1cxx_rvalue_references
+    Feature record: CXX_FEATURE:1cxx_sizeof_member
+    Feature record: CXX_FEATURE:1cxx_static_assert
+    Feature record: CXX_FEATURE:1cxx_strong_enums
+    Feature record: CXX_FEATURE:1cxx_template_template_parameters
+    Feature record: CXX_FEATURE:1cxx_thread_local
+    Feature record: CXX_FEATURE:1cxx_trailing_return_types
+    Feature record: CXX_FEATURE:1cxx_unicode_literals
+    Feature record: CXX_FEATURE:1cxx_uniform_initialization
+    Feature record: CXX_FEATURE:1cxx_unrestricted_unions
+    Feature record: CXX_FEATURE:1cxx_user_literals
+    Feature record: CXX_FEATURE:1cxx_variable_templates
+    Feature record: CXX_FEATURE:1cxx_variadic_macros
+    Feature record: CXX_FEATURE:1cxx_variadic_templates
+
+
+Detecting CXX [-std=c++11] compiler features compiled with the following output:
+Change Dir: /Users/klotz/Desktop/BMADwdk/projects/production/CMakeFiles/CMakeTmp
+
+Run Build Command:"/opt/local/bin/gmake" "cmTC_2a442/fast"
+/opt/local/bin/gmake -f CMakeFiles/cmTC_2a442.dir/build.make CMakeFiles/cmTC_2a442.dir/build
+gmake[1]: Entering directory '/Users/klotz/Desktop/BMADwdk/projects/production/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_2a442.dir/feature_tests.cxx.o
+/opt/local/bin/g++    -std=c++11 -o CMakeFiles/cmTC_2a442.dir/feature_tests.cxx.o -c /Users/klotz/Desktop/BMADwdk/projects/production/CMakeFiles/feature_tests.cxx
+Linking CXX executable cmTC_2a442
+/opt/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_2a442.dir/link.txt --verbose=1
+/opt/local/bin/g++    -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_2a442.dir/feature_tests.cxx.o  -o cmTC_2a442 
+gmake[1]: Leaving directory '/Users/klotz/Desktop/BMADwdk/projects/production/CMakeFiles/CMakeTmp'
+
+
+    Feature record: CXX_FEATURE:0cxx_aggregate_default_initializers
+    Feature record: CXX_FEATURE:1cxx_alias_templates
+    Feature record: CXX_FEATURE:1cxx_alignas
+    Feature record: CXX_FEATURE:1cxx_alignof
+    Feature record: CXX_FEATURE:1cxx_attributes
+    Feature record: CXX_FEATURE:0cxx_attribute_deprecated
+    Feature record: CXX_FEATURE:1cxx_auto_type
+    Feature record: CXX_FEATURE:0cxx_binary_literals
+    Feature record: CXX_FEATURE:1cxx_constexpr
+    Feature record: CXX_FEATURE:0cxx_contextual_conversions
+    Feature record: CXX_FEATURE:1cxx_decltype
+    Feature record: CXX_FEATURE:0cxx_decltype_auto
+    Feature record: CXX_FEATURE:1cxx_decltype_incomplete_return_types
+    Feature record: CXX_FEATURE:1cxx_default_function_template_args
+    Feature record: CXX_FEATURE:1cxx_defaulted_functions
+    Feature record: CXX_FEATURE:1cxx_defaulted_move_initializers
+    Feature record: CXX_FEATURE:1cxx_delegating_constructors
+    Feature record: CXX_FEATURE:1cxx_deleted_functions
+    Feature record: CXX_FEATURE:0cxx_digit_separators
+    Feature record: CXX_FEATURE:1cxx_enum_forward_declarations
+    Feature record: CXX_FEATURE:1cxx_explicit_conversions
+    Feature record: CXX_FEATURE:1cxx_extended_friend_declarations
+    Feature record: CXX_FEATURE:1cxx_extern_templates
+    Feature record: CXX_FEATURE:1cxx_final
+    Feature record: CXX_FEATURE:1cxx_func_identifier
+    Feature record: CXX_FEATURE:1cxx_generalized_initializers
+    Feature record: CXX_FEATURE:0cxx_generic_lambdas
+    Feature record: CXX_FEATURE:1cxx_inheriting_constructors
+    Feature record: CXX_FEATURE:1cxx_inline_namespaces
+    Feature record: CXX_FEATURE:1cxx_lambdas
+    Feature record: CXX_FEATURE:0cxx_lambda_init_captures
+    Feature record: CXX_FEATURE:1cxx_local_type_template_args
+    Feature record: CXX_FEATURE:1cxx_long_long_type
+    Feature record: CXX_FEATURE:1cxx_noexcept
+    Feature record: CXX_FEATURE:1cxx_nonstatic_member_init
+    Feature record: CXX_FEATURE:1cxx_nullptr
+    Feature record: CXX_FEATURE:1cxx_override
+    Feature record: CXX_FEATURE:1cxx_range_for
+    Feature record: CXX_FEATURE:1cxx_raw_string_literals
+    Feature record: CXX_FEATURE:1cxx_reference_qualified_functions
+    Feature record: CXX_FEATURE:0cxx_relaxed_constexpr
+    Feature record: CXX_FEATURE:0cxx_return_type_deduction
+    Feature record: CXX_FEATURE:1cxx_right_angle_brackets
+    Feature record: CXX_FEATURE:1cxx_rvalue_references
+    Feature record: CXX_FEATURE:1cxx_sizeof_member
+    Feature record: CXX_FEATURE:1cxx_static_assert
+    Feature record: CXX_FEATURE:1cxx_strong_enums
+    Feature record: CXX_FEATURE:1cxx_template_template_parameters
+    Feature record: CXX_FEATURE:1cxx_thread_local
+    Feature record: CXX_FEATURE:1cxx_trailing_return_types
+    Feature record: CXX_FEATURE:1cxx_unicode_literals
+    Feature record: CXX_FEATURE:1cxx_uniform_initialization
+    Feature record: CXX_FEATURE:1cxx_unrestricted_unions
+    Feature record: CXX_FEATURE:1cxx_user_literals
+    Feature record: CXX_FEATURE:0cxx_variable_templates
+    Feature record: CXX_FEATURE:1cxx_variadic_macros
+    Feature record: CXX_FEATURE:1cxx_variadic_templates
+
+
+Detecting CXX [-std=c++98] compiler features compiled with the following output:
+Change Dir: /Users/klotz/Desktop/BMADwdk/projects/production/CMakeFiles/CMakeTmp
+
+Run Build Command:"/opt/local/bin/gmake" "cmTC_fcdc1/fast"
+/opt/local/bin/gmake -f CMakeFiles/cmTC_fcdc1.dir/build.make CMakeFiles/cmTC_fcdc1.dir/build
+gmake[1]: Entering directory '/Users/klotz/Desktop/BMADwdk/projects/production/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_fcdc1.dir/feature_tests.cxx.o
+/opt/local/bin/g++    -std=c++98 -o CMakeFiles/cmTC_fcdc1.dir/feature_tests.cxx.o -c /Users/klotz/Desktop/BMADwdk/projects/production/CMakeFiles/feature_tests.cxx
+Linking CXX executable cmTC_fcdc1
+/opt/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_fcdc1.dir/link.txt --verbose=1
+/opt/local/bin/g++    -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_fcdc1.dir/feature_tests.cxx.o  -o cmTC_fcdc1 
+gmake[1]: Leaving directory '/Users/klotz/Desktop/BMADwdk/projects/production/CMakeFiles/CMakeTmp'
+
+
+    Feature record: CXX_FEATURE:0cxx_aggregate_default_initializers
+    Feature record: CXX_FEATURE:0cxx_alias_templates
+    Feature record: CXX_FEATURE:0cxx_alignas
+    Feature record: CXX_FEATURE:0cxx_alignof
+    Feature record: CXX_FEATURE:0cxx_attributes
+    Feature record: CXX_FEATURE:0cxx_attribute_deprecated
+    Feature record: CXX_FEATURE:0cxx_auto_type
+    Feature record: CXX_FEATURE:0cxx_binary_literals
+    Feature record: CXX_FEATURE:0cxx_constexpr
+    Feature record: CXX_FEATURE:0cxx_contextual_conversions
+    Feature record: CXX_FEATURE:0cxx_decltype
+    Feature record: CXX_FEATURE:0cxx_decltype_auto
+    Feature record: CXX_FEATURE:0cxx_decltype_incomplete_return_types
+    Feature record: CXX_FEATURE:0cxx_default_function_template_args
+    Feature record: CXX_FEATURE:0cxx_defaulted_functions
+    Feature record: CXX_FEATURE:0cxx_defaulted_move_initializers
+    Feature record: CXX_FEATURE:0cxx_delegating_constructors
+    Feature record: CXX_FEATURE:0cxx_deleted_functions
+    Feature record: CXX_FEATURE:0cxx_digit_separators
+    Feature record: CXX_FEATURE:0cxx_enum_forward_declarations
+    Feature record: CXX_FEATURE:0cxx_explicit_conversions
+    Feature record: CXX_FEATURE:0cxx_extended_friend_declarations
+    Feature record: CXX_FEATURE:0cxx_extern_templates
+    Feature record: CXX_FEATURE:0cxx_final
+    Feature record: CXX_FEATURE:0cxx_func_identifier
+    Feature record: CXX_FEATURE:0cxx_generalized_initializers
+    Feature record: CXX_FEATURE:0cxx_generic_lambdas
+    Feature record: CXX_FEATURE:0cxx_inheriting_constructors
+    Feature record: CXX_FEATURE:0cxx_inline_namespaces
+    Feature record: CXX_FEATURE:0cxx_lambdas
+    Feature record: CXX_FEATURE:0cxx_lambda_init_captures
+    Feature record: CXX_FEATURE:0cxx_local_type_template_args
+    Feature record: CXX_FEATURE:0cxx_long_long_type
+    Feature record: CXX_FEATURE:0cxx_noexcept
+    Feature record: CXX_FEATURE:0cxx_nonstatic_member_init
+    Feature record: CXX_FEATURE:0cxx_nullptr
+    Feature record: CXX_FEATURE:0cxx_override
+    Feature record: CXX_FEATURE:0cxx_range_for
+    Feature record: CXX_FEATURE:0cxx_raw_string_literals
+    Feature record: CXX_FEATURE:0cxx_reference_qualified_functions
+    Feature record: CXX_FEATURE:0cxx_relaxed_constexpr
+    Feature record: CXX_FEATURE:0cxx_return_type_deduction
+    Feature record: CXX_FEATURE:0cxx_right_angle_brackets
+    Feature record: CXX_FEATURE:0cxx_rvalue_references
+    Feature record: CXX_FEATURE:0cxx_sizeof_member
+    Feature record: CXX_FEATURE:0cxx_static_assert
+    Feature record: CXX_FEATURE:0cxx_strong_enums
+    Feature record: CXX_FEATURE:1cxx_template_template_parameters
+    Feature record: CXX_FEATURE:0cxx_thread_local
+    Feature record: CXX_FEATURE:0cxx_trailing_return_types
+    Feature record: CXX_FEATURE:0cxx_unicode_literals
+    Feature record: CXX_FEATURE:0cxx_uniform_initialization
+    Feature record: CXX_FEATURE:0cxx_unrestricted_unions
+    Feature record: CXX_FEATURE:0cxx_user_literals
+    Feature record: CXX_FEATURE:0cxx_variable_templates
+    Feature record: CXX_FEATURE:0cxx_variadic_macros
+    Feature record: CXX_FEATURE:0cxx_variadic_templates
+Determining if the function XOpenDisplay exists in the /opt/local/lib/libX11.dylib;/opt/local/lib/libXext.dylib passed with the following output:
+Change Dir: /Users/klotz/Desktop/BMADwdk/projects/production/CMakeFiles/CMakeTmp
+
+Run Build Command:"/opt/local/bin/gmake" "cmTC_25549/fast"
+/opt/local/bin/gmake -f CMakeFiles/cmTC_25549.dir/build.make CMakeFiles/cmTC_25549.dir/build
+gmake[1]: Entering directory '/Users/klotz/Desktop/BMADwdk/projects/production/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_25549.dir/CheckFunctionExists.c.o
+/opt/local/bin/gcc   -DCHECK_FUNCTION_EXISTS=XOpenDisplay   -o CMakeFiles/cmTC_25549.dir/CheckFunctionExists.c.o   -c /opt/local/share/cmake-3.11/Modules/CheckFunctionExists.c
+Linking C executable cmTC_25549
+/opt/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_25549.dir/link.txt --verbose=1
+/opt/local/bin/gcc  -DCHECK_FUNCTION_EXISTS=XOpenDisplay -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_25549.dir/CheckFunctionExists.c.o  -o cmTC_25549  -L/opt/local/lib -Wl,-rpath,/opt/local/lib /opt/local/lib/libX11.dylib /opt/local/lib/libXext.dylib 
+gmake[1]: Leaving directory '/Users/klotz/Desktop/BMADwdk/projects/production/CMakeFiles/CMakeTmp'
+
+
+Determining if the function gethostbyname exists passed with the following output:
+Change Dir: /Users/klotz/Desktop/BMADwdk/projects/production/CMakeFiles/CMakeTmp
+
+Run Build Command:"/opt/local/bin/gmake" "cmTC_51145/fast"
+/opt/local/bin/gmake -f CMakeFiles/cmTC_51145.dir/build.make CMakeFiles/cmTC_51145.dir/build
+gmake[1]: Entering directory '/Users/klotz/Desktop/BMADwdk/projects/production/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_51145.dir/CheckFunctionExists.c.o
+/opt/local/bin/gcc   -DCHECK_FUNCTION_EXISTS=gethostbyname   -o CMakeFiles/cmTC_51145.dir/CheckFunctionExists.c.o   -c /opt/local/share/cmake-3.11/Modules/CheckFunctionExists.c
+Linking C executable cmTC_51145
+/opt/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_51145.dir/link.txt --verbose=1
+/opt/local/bin/gcc  -DCHECK_FUNCTION_EXISTS=gethostbyname -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_51145.dir/CheckFunctionExists.c.o  -o cmTC_51145 
+gmake[1]: Leaving directory '/Users/klotz/Desktop/BMADwdk/projects/production/CMakeFiles/CMakeTmp'
+
+
+Determining if the function connect exists passed with the following output:
+Change Dir: /Users/klotz/Desktop/BMADwdk/projects/production/CMakeFiles/CMakeTmp
+
+Run Build Command:"/opt/local/bin/gmake" "cmTC_92ff1/fast"
+/opt/local/bin/gmake -f CMakeFiles/cmTC_92ff1.dir/build.make CMakeFiles/cmTC_92ff1.dir/build
+gmake[1]: Entering directory '/Users/klotz/Desktop/BMADwdk/projects/production/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_92ff1.dir/CheckFunctionExists.c.o
+/opt/local/bin/gcc   -DCHECK_FUNCTION_EXISTS=connect   -o CMakeFiles/cmTC_92ff1.dir/CheckFunctionExists.c.o   -c /opt/local/share/cmake-3.11/Modules/CheckFunctionExists.c
+Linking C executable cmTC_92ff1
+/opt/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_92ff1.dir/link.txt --verbose=1
+/opt/local/bin/gcc  -DCHECK_FUNCTION_EXISTS=connect -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_92ff1.dir/CheckFunctionExists.c.o  -o cmTC_92ff1 
+gmake[1]: Leaving directory '/Users/klotz/Desktop/BMADwdk/projects/production/CMakeFiles/CMakeTmp'
+
+
+Determining if the function remove exists passed with the following output:
+Change Dir: /Users/klotz/Desktop/BMADwdk/projects/production/CMakeFiles/CMakeTmp
+
+Run Build Command:"/opt/local/bin/gmake" "cmTC_e9684/fast"
+/opt/local/bin/gmake -f CMakeFiles/cmTC_e9684.dir/build.make CMakeFiles/cmTC_e9684.dir/build
+gmake[1]: Entering directory '/Users/klotz/Desktop/BMADwdk/projects/production/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_e9684.dir/CheckFunctionExists.c.o
+/opt/local/bin/gcc   -DCHECK_FUNCTION_EXISTS=remove   -o CMakeFiles/cmTC_e9684.dir/CheckFunctionExists.c.o   -c /opt/local/share/cmake-3.11/Modules/CheckFunctionExists.c
+Linking C executable cmTC_e9684
+/opt/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_e9684.dir/link.txt --verbose=1
+/opt/local/bin/gcc  -DCHECK_FUNCTION_EXISTS=remove -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_e9684.dir/CheckFunctionExists.c.o  -o cmTC_e9684 
+gmake[1]: Leaving directory '/Users/klotz/Desktop/BMADwdk/projects/production/CMakeFiles/CMakeTmp'
+
+
+Determining if the function shmat exists passed with the following output:
+Change Dir: /Users/klotz/Desktop/BMADwdk/projects/production/CMakeFiles/CMakeTmp
+
+Run Build Command:"/opt/local/bin/gmake" "cmTC_9f5e2/fast"
+/opt/local/bin/gmake -f CMakeFiles/cmTC_9f5e2.dir/build.make CMakeFiles/cmTC_9f5e2.dir/build
+gmake[1]: Entering directory '/Users/klotz/Desktop/BMADwdk/projects/production/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_9f5e2.dir/CheckFunctionExists.c.o
+/opt/local/bin/gcc   -DCHECK_FUNCTION_EXISTS=shmat   -o CMakeFiles/cmTC_9f5e2.dir/CheckFunctionExists.c.o   -c /opt/local/share/cmake-3.11/Modules/CheckFunctionExists.c
+Linking C executable cmTC_9f5e2
+/opt/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_9f5e2.dir/link.txt --verbose=1
+/opt/local/bin/gcc  -DCHECK_FUNCTION_EXISTS=shmat -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_9f5e2.dir/CheckFunctionExists.c.o  -o cmTC_9f5e2 
+gmake[1]: Leaving directory '/Users/klotz/Desktop/BMADwdk/projects/production/CMakeFiles/CMakeTmp'
+
+
+Compiling the Fortran compiler identification source file "CMakeFortranCompilerId.F" succeeded.
+Compiler: /opt/local/bin/gfortran 
+Build flags: 
+Id flags: -v 
+
+The output was:
+0
+Driving: /opt/local/bin/gfortran -mmacosx-version-min=10.11.6 -v CMakeFortranCompilerId.F -l gfortran -shared-libgcc
+Using built-in specs.
+COLLECT_GCC=/opt/local/bin/gfortran
+COLLECT_LTO_WRAPPER=/opt/local/libexec/gcc/x86_64-apple-darwin15/5.5.0/lto-wrapper
+Target: x86_64-apple-darwin15
+Configured with: /opt/local/var/macports/build/_opt_bblocal_var_buildworker_ports_build_ports_lang_gcc5/gcc5/work/gcc-5.5.0/configure --prefix=/opt/local --build=x86_64-apple-darwin15 --enable-languages=c,c++,objc,obj-c++,lto,fortran,java --libdir=/opt/local/lib/gcc5 --includedir=/opt/local/include/gcc5 --infodir=/opt/local/share/info --mandir=/opt/local/share/man --datarootdir=/opt/local/share/gcc-5 --with-libiconv-prefix=/opt/local --with-local-prefix=/opt/local --with-system-zlib --disable-nls --program-suffix=-mp-5 --with-gxx-include-dir=/opt/local/include/gcc5/c++/ --with-gmp=/opt/local --with-mpfr=/opt/local --with-mpc=/opt/local --with-isl=/opt/local --enable-stage1-checking --disable-multilib --enable-lto --enable-libstdcxx-time --with-build-config=bootstrap-debug --with-as=/opt/local/bin/as --with-ld=/opt/local/bin/ld --with-ar=/opt/local/bin/ar --with-bugurl=https://trac.macports.org/newticket --disable-tls --with-pkgversion='MacPorts gcc5 5.5.0_1'
+Thread model: posix
+gcc version 5.5.0 (MacPorts gcc5 5.5.0_1) 
+COLLECT_GCC_OPTIONS='-mmacosx-version-min=10.11.6' '-v' '-shared-libgcc' '-mtune=core2'
+ /opt/local/libexec/gcc/x86_64-apple-darwin15/5.5.0/f951 CMakeFortranCompilerId.F -ffixed-form -cpp=/var/folders/yc/jhq3cwyx0rj3wsr6ld3lvw540000gn/T//ccKlxtUq.f90 -quiet -v -D__DYNAMIC__ CMakeFortranCompilerId.F -fPIC -quiet -dumpbase CMakeFortranCompilerId.F -mmacosx-version-min=10.11.6 -mtune=core2 -auxbase CMakeFortranCompilerId -version -fintrinsic-modules-path /opt/local/lib/gcc5/gcc/x86_64-apple-darwin15/5.5.0/finclude -o /var/folders/yc/jhq3cwyx0rj3wsr6ld3lvw540000gn/T//ccpm7UZj.s
+GNU Fortran (MacPorts gcc5 5.5.0_1) version 5.5.0 (x86_64-apple-darwin15)
+	compiled by GNU C version 5.5.0, GMP version 6.1.2, MPFR version 4.0.1, MPC version 1.1.0
+GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+ignoring nonexistent directory "/opt/local/lib/gcc5/gcc/x86_64-apple-darwin15/5.5.0/../../../../../x86_64-apple-darwin15/include"
+#include "..." search starts here:
+#include <...> search starts here:
+ /opt/local/lib/gcc5/gcc/x86_64-apple-darwin15/5.5.0/finclude
+ /opt/local/lib/gcc5/gcc/x86_64-apple-darwin15/5.5.0/include
+ /opt/local/include
+ /opt/local/lib/gcc5/gcc/x86_64-apple-darwin15/5.5.0/include-fixed
+ /usr/include
+End of search list.
+GNU Fortran2008 (MacPorts gcc5 5.5.0_1) version 5.5.0 (x86_64-apple-darwin15)
+	compiled by GNU C version 5.5.0, GMP version 6.1.2, MPFR version 4.0.1, MPC version 1.1.0
+GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+COLLECT_GCC_OPTIONS='-mmacosx-version-min=10.11.6' '-v' '-shared-libgcc' '-mtune=core2'
+ /opt/local/bin/as -v -arch x86_64 -force_cpusubtype_ALL -o /var/folders/yc/jhq3cwyx0rj3wsr6ld3lvw540000gn/T//cctjaAKK.o /var/folders/yc/jhq3cwyx0rj3wsr6ld3lvw540000gn/T//ccpm7UZj.s
+Apple Inc version cctools-895, GNU assembler version 1.38
+Reading specs from /opt/local/lib/gcc5/gcc/x86_64-apple-darwin15/5.5.0/../../../libgfortran.spec
+rename spec lib to liborig
+COLLECT_GCC_OPTIONS='-mmacosx-version-min=10.11.6' '-v' '-shared-libgcc' '-mtune=core2'
+COMPILER_PATH=/opt/local/libexec/gcc/x86_64-apple-darwin15/5.5.0/:/opt/local/libexec/gcc/x86_64-apple-darwin15/5.5.0/:/opt/local/libexec/gcc/x86_64-apple-darwin15/:/opt/local/lib/gcc5/gcc/x86_64-apple-darwin15/5.5.0/:/opt/local/lib/gcc5/gcc/x86_64-apple-darwin15/
+LIBRARY_PATH=/opt/local/lib/gcc5/gcc/x86_64-apple-darwin15/5.5.0/:/opt/local/lib/gcc5/gcc/x86_64-apple-darwin15/5.5.0/../../../:/usr/lib/
+COLLECT_GCC_OPTIONS='-mmacosx-version-min=10.11.6' '-v' '-shared-libgcc' '-mtune=core2'
+ /opt/local/libexec/gcc/x86_64-apple-darwin15/5.5.0/collect2 -dynamic -arch x86_64 -macosx_version_min 10.11.6 -weak_reference_mismatches non-weak -o a.out -L/opt/local/lib/gcc5/gcc/x86_64-apple-darwin15/5.5.0 -L/opt/local/lib/gcc5/gcc/x86_64-apple-darwin15/5.5.0/../../.. /var/folders/yc/jhq3cwyx0rj3wsr6ld3lvw540000gn/T//cctjaAKK.o -lgfortran -no_compact_unwind -lSystem -lgcc_ext.10.5 -lgcc -lquadmath -lm -lgcc_ext.10.5 -lgcc -lSystem -v
+collect2 version 5.5.0
+/opt/local/bin/ld -dynamic -arch x86_64 -macosx_version_min 10.11.6 -weak_reference_mismatches non-weak -o a.out -L/opt/local/lib/gcc5/gcc/x86_64-apple-darwin15/5.5.0 -L/opt/local/lib/gcc5/gcc/x86_64-apple-darwin15/5.5.0/../../.. /var/folders/yc/jhq3cwyx0rj3wsr6ld3lvw540000gn/T//cctjaAKK.o -lgfortran -no_compact_unwind -lSystem -lgcc_ext.10.5 -lgcc -lquadmath -lm -lgcc_ext.10.5 -lgcc -lSystem -v
+@(#)PROGRAM:ld  PROJECT:ld64-274.2
+configured to support archs: i386 x86_64 x86_64h armv6 armv7 armv7s armv7m armv7k arm64 (tvOS)
+Library search paths:
+	/opt/local/lib/gcc5/gcc/x86_64-apple-darwin15/5.5.0
+	/opt/local/lib/gcc5
+	/usr/lib
+	/usr/local/lib
+Framework search paths:
+	/Library/Frameworks/
+	/System/Library/Frameworks/
+ /opt/local/bin/nm -n /var/folders/yc/jhq3cwyx0rj3wsr6ld3lvw540000gn/T//cctjaAKK.o
+
+
+Compilation of the Fortran compiler identification source "CMakeFortranCompilerId.F" produced "a.out"
+
+The Fortran compiler identification is GNU, found in "/Users/klotz/Desktop/BMADwdk/projects/production/CMakeFiles/3.11.1/CompilerIdFortran/a.out"
+
+Determining if the Fortran compiler works passed with the following output:
+Change Dir: /Users/klotz/Desktop/BMADwdk/projects/production/CMakeFiles/CMakeTmp
+
+Run Build Command:"/opt/local/bin/gmake" "cmTC_30cf8/fast"
+/opt/local/bin/gmake -f CMakeFiles/cmTC_30cf8.dir/build.make CMakeFiles/cmTC_30cf8.dir/build
+gmake[1]: Entering directory '/Users/klotz/Desktop/BMADwdk/projects/production/CMakeFiles/CMakeTmp'
+Building Fortran object CMakeFiles/cmTC_30cf8.dir/testFortranCompiler.f.o
+/opt/local/bin/gfortran    -c /Users/klotz/Desktop/BMADwdk/projects/production/CMakeFiles/CMakeTmp/testFortranCompiler.f -o CMakeFiles/cmTC_30cf8.dir/testFortranCompiler.f.o
+Linking Fortran executable cmTC_30cf8
+/opt/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_30cf8.dir/link.txt --verbose=1
+/opt/local/bin/gfortran      CMakeFiles/cmTC_30cf8.dir/testFortranCompiler.f.o  -o cmTC_30cf8 
+gmake[1]: Leaving directory '/Users/klotz/Desktop/BMADwdk/projects/production/CMakeFiles/CMakeTmp'
+
+
+Detecting Fortran compiler ABI info compiled with the following output:
+Change Dir: /Users/klotz/Desktop/BMADwdk/projects/production/CMakeFiles/CMakeTmp
+
+Run Build Command:"/opt/local/bin/gmake" "cmTC_9fa98/fast"
+/opt/local/bin/gmake -f CMakeFiles/cmTC_9fa98.dir/build.make CMakeFiles/cmTC_9fa98.dir/build
+gmake[1]: Entering directory '/Users/klotz/Desktop/BMADwdk/projects/production/CMakeFiles/CMakeTmp'
+Building Fortran object CMakeFiles/cmTC_9fa98.dir/CMakeFortranCompilerABI.F.o
+/opt/local/bin/gfortran    -c /opt/local/share/cmake-3.11/Modules/CMakeFortranCompilerABI.F -o CMakeFiles/cmTC_9fa98.dir/CMakeFortranCompilerABI.F.o
+Linking Fortran executable cmTC_9fa98
+/opt/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_9fa98.dir/link.txt --verbose=1
+/opt/local/bin/gfortran   -v -Wl,-v   CMakeFiles/cmTC_9fa98.dir/CMakeFortranCompilerABI.F.o  -o cmTC_9fa98 
+Driving: /opt/local/bin/gfortran -mmacosx-version-min=10.11.6 -v -Wl,-v CMakeFiles/cmTC_9fa98.dir/CMakeFortranCompilerABI.F.o -o cmTC_9fa98 -l gfortran -shared-libgcc
+Using built-in specs.
+COLLECT_GCC=/opt/local/bin/gfortran
+COLLECT_LTO_WRAPPER=/opt/local/libexec/gcc/x86_64-apple-darwin15/5.5.0/lto-wrapper
+Target: x86_64-apple-darwin15
+Configured with: /opt/local/var/macports/build/_opt_bblocal_var_buildworker_ports_build_ports_lang_gcc5/gcc5/work/gcc-5.5.0/configure --prefix=/opt/local --build=x86_64-apple-darwin15 --enable-languages=c,c++,objc,obj-c++,lto,fortran,java --libdir=/opt/local/lib/gcc5 --includedir=/opt/local/include/gcc5 --infodir=/opt/local/share/info --mandir=/opt/local/share/man --datarootdir=/opt/local/share/gcc-5 --with-libiconv-prefix=/opt/local --with-local-prefix=/opt/local --with-system-zlib --disable-nls --program-suffix=-mp-5 --with-gxx-include-dir=/opt/local/include/gcc5/c++/ --with-gmp=/opt/local --with-mpfr=/opt/local --with-mpc=/opt/local --with-isl=/opt/local --enable-stage1-checking --disable-multilib --enable-lto --enable-libstdcxx-time --with-build-config=bootstrap-debug --with-as=/opt/local/bin/as --with-ld=/opt/local/bin/ld --with-ar=/opt/local/bin/ar --with-bugurl=https://trac.macports.org/newticket --disable-tls --with-pkgversion='MacPorts gcc5 5.5.0_1'
+Thread model: posix
+gcc version 5.5.0 (MacPorts gcc5 5.5.0_1) 
+Reading specs from /opt/local/lib/gcc5/gcc/x86_64-apple-darwin15/5.5.0/../../../libgfortran.spec
+rename spec lib to liborig
+COLLECT_GCC_OPTIONS='-mmacosx-version-min=10.11.6' '-v' '-o' 'cmTC_9fa98' '-shared-libgcc' '-mtune=core2'
+COMPILER_PATH=/opt/local/libexec/gcc/x86_64-apple-darwin15/5.5.0/:/opt/local/libexec/gcc/x86_64-apple-darwin15/5.5.0/:/opt/local/libexec/gcc/x86_64-apple-darwin15/:/opt/local/lib/gcc5/gcc/x86_64-apple-darwin15/5.5.0/:/opt/local/lib/gcc5/gcc/x86_64-apple-darwin15/
+LIBRARY_PATH=/opt/local/lib/gcc5/gcc/x86_64-apple-darwin15/5.5.0/:/opt/local/lib/gcc5/gcc/x86_64-apple-darwin15/5.5.0/../../../:/usr/lib/
+COLLECT_GCC_OPTIONS='-mmacosx-version-min=10.11.6' '-v' '-o' 'cmTC_9fa98' '-shared-libgcc' '-mtune=core2'
+ /opt/local/libexec/gcc/x86_64-apple-darwin15/5.5.0/collect2 -dynamic -arch x86_64 -macosx_version_min 10.11.6 -weak_reference_mismatches non-weak -o cmTC_9fa98 -L/opt/local/lib/gcc5/gcc/x86_64-apple-darwin15/5.5.0 -L/opt/local/lib/gcc5/gcc/x86_64-apple-darwin15/5.5.0/../../.. -v CMakeFiles/cmTC_9fa98.dir/CMakeFortranCompilerABI.F.o -lgfortran -no_compact_unwind -lSystem -lgcc_ext.10.5 -lgcc -lquadmath -lm -lgcc_ext.10.5 -lgcc -lSystem -v
+collect2 version 5.5.0
+/opt/local/bin/ld -dynamic -arch x86_64 -macosx_version_min 10.11.6 -weak_reference_mismatches non-weak -o cmTC_9fa98 -L/opt/local/lib/gcc5/gcc/x86_64-apple-darwin15/5.5.0 -L/opt/local/lib/gcc5/gcc/x86_64-apple-darwin15/5.5.0/../../.. -v CMakeFiles/cmTC_9fa98.dir/CMakeFortranCompilerABI.F.o -lgfortran -no_compact_unwind -lSystem -lgcc_ext.10.5 -lgcc -lquadmath -lm -lgcc_ext.10.5 -lgcc -lSystem -v
+@(#)PROGRAM:ld  PROJECT:ld64-274.2
+configured to support archs: i386 x86_64 x86_64h armv6 armv7 armv7s armv7m armv7k arm64 (tvOS)
+@(#)PROGRAM:ld  PROJECT:ld64-274.2
+configured to support archs: i386 x86_64 x86_64h armv6 armv7 armv7s armv7m armv7k arm64 (tvOS)
+Library search paths:
+	/opt/local/lib/gcc5/gcc/x86_64-apple-darwin15/5.5.0
+	/opt/local/lib/gcc5
+	/usr/lib
+	/usr/local/lib
+Framework search paths:
+	/Library/Frameworks/
+	/System/Library/Frameworks/
+ /opt/local/bin/nm -n CMakeFiles/cmTC_9fa98.dir/CMakeFortranCompilerABI.F.o
+gmake[1]: Leaving directory '/Users/klotz/Desktop/BMADwdk/projects/production/CMakeFiles/CMakeTmp'
+
+
+Parsed Fortran implicit link information from above output:
+  link line regex: [^( *|.*[/\])(ld|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\]+-)?ld|collect2)[^/\]*( |$)]
+  ignore line: [Change Dir: /Users/klotz/Desktop/BMADwdk/projects/production/CMakeFiles/CMakeTmp]
+  ignore line: []
+  ignore line: [Run Build Command:"/opt/local/bin/gmake" "cmTC_9fa98/fast"]
+  ignore line: [/opt/local/bin/gmake -f CMakeFiles/cmTC_9fa98.dir/build.make CMakeFiles/cmTC_9fa98.dir/build]
+  ignore line: [gmake[1]: Entering directory '/Users/klotz/Desktop/BMADwdk/projects/production/CMakeFiles/CMakeTmp']
+  ignore line: [Building Fortran object CMakeFiles/cmTC_9fa98.dir/CMakeFortranCompilerABI.F.o]
+  ignore line: [/opt/local/bin/gfortran    -c /opt/local/share/cmake-3.11/Modules/CMakeFortranCompilerABI.F -o CMakeFiles/cmTC_9fa98.dir/CMakeFortranCompilerABI.F.o]
+  ignore line: [Linking Fortran executable cmTC_9fa98]
+  ignore line: [/opt/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_9fa98.dir/link.txt --verbose=1]
+  ignore line: [/opt/local/bin/gfortran   -v -Wl,-v   CMakeFiles/cmTC_9fa98.dir/CMakeFortranCompilerABI.F.o  -o cmTC_9fa98 ]
+  ignore line: [Driving: /opt/local/bin/gfortran -mmacosx-version-min=10.11.6 -v -Wl,-v CMakeFiles/cmTC_9fa98.dir/CMakeFortranCompilerABI.F.o -o cmTC_9fa98 -l gfortran -shared-libgcc]
+  ignore line: [Using built-in specs.]
+  ignore line: [COLLECT_GCC=/opt/local/bin/gfortran]
+  ignore line: [COLLECT_LTO_WRAPPER=/opt/local/libexec/gcc/x86_64-apple-darwin15/5.5.0/lto-wrapper]
+  ignore line: [Target: x86_64-apple-darwin15]
+  ignore line: [Configured with: /opt/local/var/macports/build/_opt_bblocal_var_buildworker_ports_build_ports_lang_gcc5/gcc5/work/gcc-5.5.0/configure --prefix=/opt/local --build=x86_64-apple-darwin15 --enable-languages=c,c++,objc,obj-c++,lto,fortran,java --libdir=/opt/local/lib/gcc5 --includedir=/opt/local/include/gcc5 --infodir=/opt/local/share/info --mandir=/opt/local/share/man --datarootdir=/opt/local/share/gcc-5 --with-libiconv-prefix=/opt/local --with-local-prefix=/opt/local --with-system-zlib --disable-nls --program-suffix=-mp-5 --with-gxx-include-dir=/opt/local/include/gcc5/c++/ --with-gmp=/opt/local --with-mpfr=/opt/local --with-mpc=/opt/local --with-isl=/opt/local --enable-stage1-checking --disable-multilib --enable-lto --enable-libstdcxx-time --with-build-config=bootstrap-debug --with-as=/opt/local/bin/as --with-ld=/opt/local/bin/ld --with-ar=/opt/local/bin/ar --with-bugurl=https://trac.macports.org/newticket --disable-tls --with-pkgversion='MacPorts gcc5 5.5.0_1']
+  ignore line: [Thread model: posix]
+  ignore line: [gcc version 5.5.0 (MacPorts gcc5 5.5.0_1) ]
+  ignore line: [Reading specs from /opt/local/lib/gcc5/gcc/x86_64-apple-darwin15/5.5.0/../../../libgfortran.spec]
+  ignore line: [rename spec lib to liborig]
+  ignore line: [COLLECT_GCC_OPTIONS='-mmacosx-version-min=10.11.6' '-v' '-o' 'cmTC_9fa98' '-shared-libgcc' '-mtune=core2']
+  ignore line: [COMPILER_PATH=/opt/local/libexec/gcc/x86_64-apple-darwin15/5.5.0/:/opt/local/libexec/gcc/x86_64-apple-darwin15/5.5.0/:/opt/local/libexec/gcc/x86_64-apple-darwin15/:/opt/local/lib/gcc5/gcc/x86_64-apple-darwin15/5.5.0/:/opt/local/lib/gcc5/gcc/x86_64-apple-darwin15/]
+  ignore line: [LIBRARY_PATH=/opt/local/lib/gcc5/gcc/x86_64-apple-darwin15/5.5.0/:/opt/local/lib/gcc5/gcc/x86_64-apple-darwin15/5.5.0/../../../:/usr/lib/]
+  ignore line: [COLLECT_GCC_OPTIONS='-mmacosx-version-min=10.11.6' '-v' '-o' 'cmTC_9fa98' '-shared-libgcc' '-mtune=core2']
+  link line: [ /opt/local/libexec/gcc/x86_64-apple-darwin15/5.5.0/collect2 -dynamic -arch x86_64 -macosx_version_min 10.11.6 -weak_reference_mismatches non-weak -o cmTC_9fa98 -L/opt/local/lib/gcc5/gcc/x86_64-apple-darwin15/5.5.0 -L/opt/local/lib/gcc5/gcc/x86_64-apple-darwin15/5.5.0/../../.. -v CMakeFiles/cmTC_9fa98.dir/CMakeFortranCompilerABI.F.o -lgfortran -no_compact_unwind -lSystem -lgcc_ext.10.5 -lgcc -lquadmath -lm -lgcc_ext.10.5 -lgcc -lSystem -v]
+    arg [/opt/local/libexec/gcc/x86_64-apple-darwin15/5.5.0/collect2] ==> ignore
+    arg [-dynamic] ==> ignore
+    arg [-arch] ==> ignore
+    arg [x86_64] ==> ignore
+    arg [-macosx_version_min] ==> ignore
+    arg [10.11.6] ==> ignore
+    arg [-weak_reference_mismatches] ==> ignore
+    arg [non-weak] ==> ignore
+    arg [-o] ==> ignore
+    arg [cmTC_9fa98] ==> ignore
+    arg [-L/opt/local/lib/gcc5/gcc/x86_64-apple-darwin15/5.5.0] ==> dir [/opt/local/lib/gcc5/gcc/x86_64-apple-darwin15/5.5.0]
+    arg [-L/opt/local/lib/gcc5/gcc/x86_64-apple-darwin15/5.5.0/../../..] ==> dir [/opt/local/lib/gcc5/gcc/x86_64-apple-darwin15/5.5.0/../../..]
+    arg [-v] ==> ignore
+    arg [CMakeFiles/cmTC_9fa98.dir/CMakeFortranCompilerABI.F.o] ==> ignore
+    arg [-lgfortran] ==> lib [gfortran]
+    arg [-no_compact_unwind] ==> ignore
+    arg [-lSystem] ==> lib [System]
+    arg [-lgcc_ext.10.5] ==> lib [gcc_ext.10.5]
+    arg [-lgcc] ==> lib [gcc]
+    arg [-lquadmath] ==> lib [quadmath]
+    arg [-lm] ==> lib [m]
+    arg [-lgcc_ext.10.5] ==> lib [gcc_ext.10.5]
+    arg [-lgcc] ==> lib [gcc]
+    arg [-lSystem] ==> lib [System]
+    arg [-v] ==> ignore
+  Library search paths: [;/opt/local/lib/gcc5/gcc/x86_64-apple-darwin15/5.5.0;/opt/local/lib/gcc5;/usr/lib;/usr/local/lib]
+  Framework search paths: [;/Library/Frameworks/;/System/Library/Frameworks/]
+  remove lib [System]
+  remove lib [System]
+  collapse library dir [/opt/local/lib/gcc5/gcc/x86_64-apple-darwin15/5.5.0] ==> [/opt/local/lib/gcc5/gcc/x86_64-apple-darwin15/5.5.0]
+  collapse library dir [/opt/local/lib/gcc5/gcc/x86_64-apple-darwin15/5.5.0/../../..] ==> [/opt/local/lib/gcc5]
+  collapse library dir [/opt/local/lib/gcc5/gcc/x86_64-apple-darwin15/5.5.0] ==> [/opt/local/lib/gcc5/gcc/x86_64-apple-darwin15/5.5.0]
+  collapse library dir [/opt/local/lib/gcc5] ==> [/opt/local/lib/gcc5]
+  collapse library dir [/usr/lib] ==> [/usr/lib]
+  collapse library dir [/usr/local/lib] ==> [/usr/local/lib]
+  collapse framework dir [/Library/Frameworks/] ==> [/Library/Frameworks]
+  collapse framework dir [/System/Library/Frameworks/] ==> [/System/Library/Frameworks]
+  implicit libs: [gfortran;gcc_ext.10.5;gcc;quadmath;m;gcc_ext.10.5;gcc]
+  implicit dirs: [/opt/local/lib/gcc5/gcc/x86_64-apple-darwin15/5.5.0;/opt/local/lib/gcc5;/usr/lib;/usr/local/lib]
+  implicit fwks: [/Library/Frameworks;/System/Library/Frameworks]
+
+
+Determining if the Fortran compiler supports Fortran 90 passed with the following output:
+Change Dir: /Users/klotz/Desktop/BMADwdk/projects/production/CMakeFiles/CMakeTmp
+
+Run Build Command:"/opt/local/bin/gmake" "cmTC_e3589/fast"
+/opt/local/bin/gmake -f CMakeFiles/cmTC_e3589.dir/build.make CMakeFiles/cmTC_e3589.dir/build
+gmake[1]: Entering directory '/Users/klotz/Desktop/BMADwdk/projects/production/CMakeFiles/CMakeTmp'
+Building Fortran object CMakeFiles/cmTC_e3589.dir/testFortranCompilerF90.f90.o
+/opt/local/bin/gfortran    -c /Users/klotz/Desktop/BMADwdk/projects/production/CMakeFiles/CMakeTmp/testFortranCompilerF90.f90 -o CMakeFiles/cmTC_e3589.dir/testFortranCompilerF90.f90.o
+Linking Fortran executable cmTC_e3589
+/opt/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_e3589.dir/link.txt --verbose=1
+/opt/local/bin/gfortran      CMakeFiles/cmTC_e3589.dir/testFortranCompilerF90.f90.o  -o cmTC_e3589 
+gmake[1]: Leaving directory '/Users/klotz/Desktop/BMADwdk/projects/production/CMakeFiles/CMakeTmp'
+
+

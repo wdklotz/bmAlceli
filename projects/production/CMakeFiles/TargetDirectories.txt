@@ -1,0 +1,3 @@
+/Users/klotz/Desktop/BMADwdk/projects/production/CMakeFiles/rebuild_cache.dir
+/Users/klotz/Desktop/BMADwdk/projects/production/CMakeFiles/edit_cache.dir
+/Users/klotz/Desktop/BMADwdk/projects/production/CMakeFiles/simple_bmad_program-exe.dir
