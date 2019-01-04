@@ -11,6 +11,7 @@
 &tao_params
 !   global%rf_on    = F
     global%track_type = "beam"
+    global%rf_on = T
 /
 !------------------------------------------------------------------------
 &tao_beam_init
